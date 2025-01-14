@@ -9,7 +9,7 @@ async function buscarEMostrarVideos() {
     const busca = await axios.get(
       "https://gist.githubusercontent.com/Melksedeque/7921b4aa22c6cacde0dcfd08f06862f0/raw/f0dff06cf476210f9159a547a5ccd0a99437c192/videos.txt"
     );
-    const videos = busca.data;
+    const videos = busca.data.videos;
 
     videos.forEach((video) => {
       console.log(video);
