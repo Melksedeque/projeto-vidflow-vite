@@ -31,13 +31,13 @@
   },
   "homepage": "https://github.com/Melksedeque/projeto-vidflow-vite#readme",
   "devDependencies": {
-    "vite": "^4.4.5",
     "eslint": "^9.18.0",
     "globals": "^15.14.0",
-    "json-server": "0.17.4",
-    "prettier": "3.0.3"
+    "json-server": "1.0.0-beta.3",
+    "prettier": "3.4.2",
+    "vite": "^4.4.5"
   },
   "dependencies": {
-    "axios": "1.6.0"
+    "axios": "^1.7.9"
   }
 }
