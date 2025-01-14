@@ -6,10 +6,13 @@ const btnCategoria = document.querySelectorAll(".superior__item");
 
 async function buscarEMostrarVideos() {
   try {
-    const busca = await axios.get("http://localhost:3000/videos");
+    const busca = await axios.get(
+      "https://gist.githubusercontent.com/Melksedeque/7921b4aa22c6cacde0dcfd08f06862f0/raw/f0dff06cf476210f9159a547a5ccd0a99437c192/videos.txt"
+    );
     const videos = busca.data;
 
     videos.forEach((video) => {
+      console.log(video);
       if (video.categoria == "") {
         throw new Error("Vídeo sem categoria!");
       }
