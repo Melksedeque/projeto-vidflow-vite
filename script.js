@@ -11,7 +11,7 @@ const url = import.meta.env.PROD
 async function buscarEMostrarVideos() {
   try {
     const busca = await axios.get(url);
-    const videos = busca.data;
+    const videos = busca.data.videos;
 
     videos.forEach((video) => {
       if (video.categoria == "") {
