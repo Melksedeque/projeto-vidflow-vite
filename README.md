@@ -10,6 +10,7 @@
 - [Funcionalidades](#funcionalidades)
 - [Como Instalar e Rodar o Projeto](#como-instalar-e-rodar-o-projeto)
 - [Estrutura de Pastas](#estrutura-de-pastas)
+- [Projeto ao Vivo](#projeto-ao-vivo)
 - [Licença](#licença)
 - [Autor](#autor)
 
@@ -113,6 +114,10 @@ projeto-vidflow-vite/
 ├── README.md
 └── script.js
 ```
+
+## Projeto ao Vivo
+
+Você pode ver o projeto funcionando ao vivo no seguinte link: [VidFlow ao Vivo](https://projeto-vidflow-vite-three.vercel.app/)
 
 ## Licença
 
