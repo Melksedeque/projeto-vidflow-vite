@@ -8,16 +8,12 @@ const url = import.meta.env.PROD
   ? "https://gist.githubusercontent.com/Melksedeque/7921b4aa22c6cacde0dcfd08f06862f0/raw/f0dff06cf476210f9159a547a5ccd0a99437c192/videos.txt"
   : "http://localhost:3000/";
 
-console.log(url);
-console.log(import.meta.env.PROD);
-
 async function buscarEMostrarVideos() {
   try {
     const busca = await axios.get(url);
     const videos = busca.data.videos;
 
     videos.forEach((video) => {
-      console.log(video);
       if (video.categoria == "") {
         throw new Error("Vídeo sem categoria!");
       }
