@@ -121,7 +121,7 @@ Você pode ver o projeto funcionando ao vivo no seguinte link: [VidFlow ao Vivo]
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://github.com/Melksedeque/projeto-vidflow?tab=MIT-1-ov-file) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://github.com/Melksedeque/projeto-vidflow-vite?tab=MIT-1-ov-file) para mais detalhes.
 
 ## Autor
 
